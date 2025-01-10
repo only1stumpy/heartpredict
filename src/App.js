@@ -78,13 +78,13 @@ function App() {
     setShowResults(false);
   };
   return (
-    <div className='font-mont text-[#1D1B21] font-normal bg-[#FCF6F3]'>
+    <div className='font-mont text-[#1D1B21] font-normal bg-[#FCF6F3]' id="start">
       <header className='w-full h-[100px] sticky top-0 z-50 bg-[#FFFBF9] flex items-center px-10 justify-between drop-shadow-md'>
         <img src={logo_header} alt='logo' className='bg-[#FCF6F3] p-1 rounded-xl' />
         <nav className='flex justify-between text-2xl w-[500px]'>
-          <a href='#' className='hover:bg-[#D01809] p-3 rounded-2xl duration-300 transition ease-in-out hover:text-[#FFFBF9]'>О нас</a>
+          <a href='#start' className='hover:bg-[#D01809] p-3 rounded-2xl duration-300 transition ease-in-out hover:text-[#FFFBF9]'>О нас</a>
           <a href='#sost' className='hover:bg-[#D01809] p-3 rounded-2xl duration-300 transition ease-in-out hover:text-[#FFFBF9]'>Проверить себя</a>
-          <a href='#' className='hover:bg-[#D01809] p-3 rounded-2xl duration-300 transition ease-in-out hover:text-[#FFFBF9]'>Контакты</a>
+          <a href='#start' className='hover:bg-[#D01809] p-3 rounded-2xl duration-300 transition ease-in-out hover:text-[#FFFBF9]'>Контакты</a>
         </nav>
       </header>
         <div className='w-screen h-[820px] flex justify-center items-center text-2xl flex-col'>
