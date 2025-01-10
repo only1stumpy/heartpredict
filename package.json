@@ -11,8 +11,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "uvicorn server:app --reload | react-scripts start",
+    "build": "uvicorn server:app --reload | react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
